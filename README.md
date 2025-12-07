@@ -17,9 +17,11 @@ The system tracks essential metrics and manages sales for a single cinema hall:
 ##   Project Structure
 
 The core logic is divided into two main files:
+```
 src/
 ├── Hall.java       # Class representing a cinema hall
 └── TestHall.java   # Main class to test ticket sales and hall status
+```
 ---
 
 ## 🛠️ Key Concepts Applied
@@ -46,11 +48,20 @@ This project is an excellent demonstration of fundamental Java OOP principles:
 
 The output demonstrates ticket sales, the status check, and the reset functionality:
 Sale successful (Normal Price): 20 tickets. Sale successful (Reduced Price): 14 tickets.
+```
+--- Hall Status --- Movie: 
+Titanic Ticket Price: 75.5 DH
+Total Seats: 60 
+Normal Tickets Sold: 20 
+Reduced Tickets Sold: 14 
+Available Seats: 26 
+Occupancy Rate: 56.67 % 
+Revenue: 2078.0 DH
 
---- Hall Status --- Movie: Titanic Ticket Price: 75.5 USD Total Seats: 60 Normal Tickets Sold: 20 Reduced Tickets Sold: 14 Available Seats: 26 Occupancy Rate: 56.67 % Revenue: 2078.0 USD
+--- New Movie --- 
 
---- New Movie --- Current Movie: Avatar 2 Hall has been reset for the next show. Available seats after reset: 60
-
+Current Movie: Avatar 2 Hall has been reset for the next show. Available seats after reset: 60
+```
 
 ---
 
