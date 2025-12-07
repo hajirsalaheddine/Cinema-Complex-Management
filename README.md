@@ -19,8 +19,7 @@ The system tracks essential metrics and manages sales for a single cinema hall:
 The core logic is divided into two main files:
 ```
 src/
-├── Hall.java       # Class representing a cinema hall
-└── TestHall.java   # Main class to test ticket sales and hall status
+└── Hall.java   # Main class to test ticket sales and hall status
 ```
 ---
 
