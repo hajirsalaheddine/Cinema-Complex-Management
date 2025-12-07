@@ -24,7 +24,7 @@ src/
 ```
 ---
 
-## 🛠️ Key Concepts Applied
+##   Key Concepts Applied
 
 This project is an excellent demonstration of fundamental Java OOP principles:
 
