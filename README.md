@@ -15,6 +15,7 @@ Tracks ticket sales, occupancy rate, and total revenue for multiple shows in a c
 ---
 
 ### Project Structure
+
 src/
 ├── Hall.java       # Class representing a cinema hall
 └── TestHall.java   # Main class to test ticket sales and hall status
