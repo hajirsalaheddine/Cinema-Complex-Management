@@ -1,62 +1,59 @@
-# Cinema Complex Management
+#  Cinema Complex Management System (Java OOP)
 
-A Java application simulating a cinema hall ticket management system.
-Tracks ticket sales, occupancy rate, and total revenue for multiple shows in a cinema hall.
-
----
-
-## Features
-
--Manage ticket sales for Normal and Reduced rates.
--Track available seats, occupancy rate, and total revenue.
--Reset hall counters for new shows.
-
+A Java application that simulates a cinema hall's ticket management system. This project is designed to help users learn and practice **Object-Oriented Programming (OOP)** concepts, specifically focusing on **Inheritance** and **Encapsulation**.
 
 ---
 
-### Project Structure
+##   Features
 
+The system tracks essential metrics and manages sales for a single cinema hall:
+
+* **Ticket Sales Management:** Handles sales for two types of tickets: **Normal** and **Reduced** rates.
+* **Hall Status Tracking:** Monitors the number of **available seats**, calculates the current **occupancy rate**, and tracks the **total revenue**.
+* **Show Reset Functionality:** Allows the hall counters to be easily **reset** for a new movie or show.
+
+---
+
+##   Project Structure
+
+The core logic is divided into two main files:
 src/
 ├── Hall.java       # Class representing a cinema hall
 └── TestHall.java   # Main class to test ticket sales and hall status
+---
+
+## 🛠️ Key Concepts Applied
+
+This project is an excellent demonstration of fundamental Java OOP principles:
+
+* **Object-Oriented Programming (OOP):** Modeling real-world entities (the Hall and its sales) as objects.
+* **Inheritance & Encapsulation:** Using classes and methods to manage the internal state of the `Hall` object, restricting direct access to crucial data like revenue and seat counts.
+* **Polymorphism (for potential extensions):** The structure is set up to easily accommodate different ticket types or hall configurations in the future.
+* **Collections (Future Scope):** An `ArrayList` could be used to manage multiple `Hall` objects, simulating a complete cinema complex.
 
 ---
 
-#### How to Run
+##  How to Run
 
-1.Open the project in Eclipse or any Java IDE.
-2.Run TestHall.java as a Java Application.
-Sample Output:
+1.  **Clone the Repository:**
+    ```bash
+    git clone [your-repo-link]
+    ```
+2.  **Open in IDE:** Import the project into your preferred Java IDE (e.g., **Eclipse**, IntelliJ IDEA, VS Code).
+3.  **Run:** Execute the `TestHall.java` file as a Java Application.
 
-Sale successful (Normal Price): 20 tickets.
-Sale successful (Reduced Price): 14 tickets.
+### Sample Output
 
---- Hall Status ---
-Movie: Titanic
-Ticket Price: 75.5 USD
-Total Seats: 60
-Normal Tickets Sold: 20
-Reduced Tickets Sold: 14
-Available Seats: 26
-Occupancy Rate: 56.67 %
-Revenue: 2078.0 USD
+The output demonstrates ticket sales, the status check, and the reset functionality:
+Sale successful (Normal Price): 20 tickets. Sale successful (Reduced Price): 14 tickets.
 
---- New Movie ---
-Current Movie: Avatar 2
-Hall has been reset for the next show.
-Available seats after reset: 60
+--- Hall Status --- Movie: Titanic Ticket Price: 75.5 USD Total Seats: 60 Normal Tickets Sold: 20 Reduced Tickets Sold: 14 Available Seats: 26 Occupancy Rate: 56.67 % Revenue: 2078.0 USD
+
+--- New Movie --- Current Movie: Avatar 2 Hall has been reset for the next show. Available seats after reset: 60
+
 
 ---
 
-##### Key Concepts
+##   License
 
-*Object-Oriented Programming (OOP)*
-*Inheritance & Encapsulation*
-*Polymorphism (for potential extensions)*
-*Collections (ArrayList can be used for multiple halls)*
-
----
-
-###### License
-
-Educational project created for learning Java OOP and cinema hall management.
+This is an **educational project** created for learning Java OOP and basic management system simulation. You are free to use, modify, and distribute it for non-commercial, learning purposes.
