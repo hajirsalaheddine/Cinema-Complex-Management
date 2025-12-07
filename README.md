@@ -49,18 +49,23 @@ This project is an excellent demonstration of fundamental Java OOP principles:
 The output demonstrates ticket sales, the status check, and the reset functionality:
 Sale successful (Normal Price): 20 tickets. Sale successful (Reduced Price): 14 tickets.
 ```
---- Hall Status --- Movie: 
-Titanic Ticket Price: 75.5 DH
-Total Seats: 60 
-Normal Tickets Sold: 20 
-Reduced Tickets Sold: 14 
-Available Seats: 26 
-Occupancy Rate: 56.67 % 
-Revenue: 2078.0 DH
+Sale successful (Normal Price): 20 tickets.
+Sale successful (Reduced Price): 14 tickets.
 
---- New Movie --- 
+---- Hall Status -----
+Movie: Titanic
+Ticket Price: 75.5 DH
+Total Seats: 60
+Normal Tickets Sold: 20
+Reduced Tickets Sold: 14
+Available Seats: 26
+Occupancy Rate: 56.67 %
+Revenue: 2355.6000000000004 DH
 
-Current Movie: Avatar 2 Hall has been reset for the next show. Available seats after reset: 60
+--- New Movie ---
+Current Movie: Avatar 2
+Hall has been reset for the next show.
+Available seats after reset: 60
 ```
 
 ---
