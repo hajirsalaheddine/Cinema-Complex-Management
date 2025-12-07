@@ -10,7 +10,7 @@ Tracks ticket sales, occupancy rate, and total revenue for multiple shows in a c
 -Manage ticket sales for Normal and Reduced rates.
 -Track available seats, occupancy rate, and total revenue.
 -Reset hall counters for new shows.
--Human-friendly console output.
+
 
 ---
 
